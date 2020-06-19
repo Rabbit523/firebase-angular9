@@ -1,0 +1,146 @@
+<header class="page-head slider-menu-position">
+	<!-- RD Navbar Transparent-->
+	<div class="rd-navbar-wrap">
+		<nav data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-static" class="rd-navbar container rd-navbar-floated rd-navbar-dark" data-lg-auto-height="true" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-stick-up="true">
+			<div class="rd-navbar-inner">
+				<!-- RD Navbar Top Panel-->
+				<div class="rd-navbar-top-panel context-dark bg-danger">
+					<div class="left-side">
+						<address class="contact-info text-left"><a href="callto:#"><span class="icon mdi mdi-cellphone-android"></span><span class="text-middle">1-800-1324-567</span></a></address>
+					</div>
+					<div class="center">
+						<address class="contact-info text-left"><a href="#"><span class="icon mdi mdi-map-marker-radius"></span><span class="text-middle">2130 Fulton Street San Francisco, CA 94117-1080 USA</span></a></address>
+					</div>
+					<div class="right-side">
+						<ul class="list-inline list-inline-sm">
+							<li><a href="#" class="fa fa-facebook"></a></li>
+							<li><a href="#" class="fa fa-twitter"></a></li>
+							<li><a href="#" class="fa fa-google-plus"></a></li>
+							<li><a href="#" class="fa fa-youtube"></a></li>
+						</ul>
+					</div>
+				</div>
+				<!-- RD Navbar Panel -->
+				<div class="rd-navbar-panel">
+					<!-- RD Navbar Toggle-->
+					<button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-nav-wrap" class="rd-navbar-toggle"><span></span></button>
+					<!-- RD Navbar Top Panel Toggle-->
+					<button data-rd-navbar-toggle=".rd-navbar, .rd-navbar-top-panel" class="rd-navbar-top-panel-toggle"><span></span></button>
+					<!--Navbar Brand-->
+					<div class="rd-navbar-brand"><a href="/"><img width='173' height='30' src='assets/images/logo.png' alt=''/></a></div>
+				</div>
+				<div class="rd-navbar-menu-wrap">
+					<div class="rd-navbar-nav-wrap">
+						<div class="rd-navbar-mobile-scroll">
+							<!--Navbar Brand Mobile-->
+							<div class="rd-navbar-mobile-brand"><a href="/"><img width='173' height='30' src='assets/images/logo.png' alt=''/></a></div>
+							<div class="form-search-wrap">
+								<!-- RD Search Form-->
+								<form action="" method="GET" class="form-search rd-search">
+									<div class="form-group">
+										<label for="rd-navbar-form-search-widget" class="form-label form-search-label form-label-sm">Search</label>
+										<input id="rd-navbar-form-search-widget" type="text" name="s" autocomplete="off" class="form-search-input input-sm form-control form-control-gray-lightest input-sm"/>
+									</div>
+									<button type="submit" class="form-search-submit"><span class="mdi mdi-magnify"></span></button>
+								</form>
+							</div>
+							<!-- RD Navbar Nav-->
+							<ul class="rd-navbar-nav">
+								<li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Home</span></a>
+								</li>
+								<li><a routerLink="/membership" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Memberships</span></a>
+								</li>
+								<li><a routerLink="/coaches" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Coaches</span></a>
+								</li>
+								<li><a routerLink="/schedule" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Schedule</span></a>
+								</li>
+								<li><a routerLink="/faq" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>FAQ</span></a>
+								</li>
+								<li><a routerLink="/blog" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Blog</span></a>
+								</li>
+								<li><a routerLink="/contact" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><span>Contact Us</span></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!--RD Navbar Search-->
+					<div class="rd-navbar-search rd-navbar-search-top-panel"><a data-rd-navbar-toggle=".rd-navbar-inner,.rd-navbar-search" href="#" class="rd-navbar-search-toggle mdi"><span></span></a>
+						<form action="/" method="GET" class="rd-navbar-search-form search-form-icon-right rd-search">
+							<div class="form-group">
+								<label for="rd-navbar-search-form-input" class="form-label">Type and hit enter...</label>
+								<input id="rd-navbar-search-form-input" type="text" name="s" autocomplete="off" class="rd-navbar-search-form-input form-control form-control-gray-lightest"/>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<!--Swiper-->
+	<div class="rd-parallax rd-parallax-swiper" *ngIf="isParallax">
+		<div data-speed="0.3" data-sm-speed="1" data-type="html" class="rd-parallax-layer">
+			<div data-loop="true" data-height="100vh" data-dragable="false" data-min-height="480px" class="swiper-container swiper-slider">
+				<div class="swiper-wrapper text-center">
+					<div id="page-loader" data-slide-bg="assets/images/background-01-1920x750.jpg" data-preview-bg="/assets/images/background-01-1920x750.jpg" class="swiper-slide">
+						<div data-speed="0.5" data-fade="true" class="swiper-caption swiper-parallax">
+							<div class="swiper-slide-caption">
+								<div class="shell">
+									<div class="range range-lg-center">
+										<div class="cell-lg-12">
+											<div data-caption-animate="fadeInUp" data-caption-delay="300" class="text-extra-big text-bold text-italic text-uppercase">No Pain No Gain</div>
+										</div>
+										<div class="cell-lg-8 offset-top-10">
+											<h5 data-caption-animate="fadeInUp" data-caption-delay="500" class="hidden reveal-xs-block text-light">
+												Having a perfect body requires a lot of training. Nice-looking body and
+												powerful organism are interconnected – and we can help you with both.
+											</h5>
+											<div class="offset-top-20 offset-xs-top-50"><a href="#" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800" class="btn btn-danger btn-anis-effect"><span class="btn-text">get started</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-slide-bg="assets/images/background-02-1920x750.jpg" data-preview-bg="/assets/images/background-02-1920x750.jpg" class="swiper-slide">
+						<div data-speed="0.5" data-fade="true" class="swiper-caption swiper-parallax">
+							<div class="swiper-slide-caption">
+								<div class="shell">
+									<div class="range range-lg-center">
+										<div class="cell-lg-12">
+											<div data-caption-animate="fadeInUp" data-caption-delay="300" class="text-extra-big text-bold text-italic text-uppercase">never give up</div>
+										</div>
+										<div class="cell-lg-8 offset-top-10">
+											<h5 data-caption-animate="fadeInUp" data-caption-delay="500" class="hidden reveal-xs-block text-light">Every bodybuilder requires a lot of dedication and effort to shape his/her body into something to be proud of. We can give you everything you need for it.</h5>
+											<div class="offset-top-20 offset-xs-top-50"><a href="#" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800" class="btn btn-danger btn-anis-effect"><span class="btn-text">get started</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div data-slide-bg="assets/images/background-03-1920x750.jpg" data-preview-bg="/assets/images/background-03-1920x750.jpg" class="swiper-slide">
+						<div data-speed="0.5" data-fade="true" class="swiper-caption swiper-parallax">
+							<div class="swiper-slide-caption">
+								<div class="shell">
+									<div class="range range-lg-center">
+										<div class="cell-lg-12">
+											<div data-caption-animate="fadeInUp" data-caption-delay="300" class="text-extra-big text-bold text-italic text-uppercase">I can go the distance</div>
+										</div>
+										<div class="cell-lg-8 offset-top-10">
+											<h5 data-caption-animate="fadeInUp" data-caption-delay="500" class="hidden reveal-xs-block text-light">Clients of our gym receive not only necessary equipment for their workouts but also friendly support in achieving their number one training goal.</h5>
+											<div class="offset-top-20 offset-xs-top-50"><a href="#" data-waypoint-to="#welcome" data-caption-animate="fadeInUp" data-caption-delay="800" class="btn btn-danger btn-anis-effect"><span class="btn-text">get started</span></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="swiper-button swiper-button-prev swiper-parallax mdi mdi-chevron-left"></div>
+				<div class="swiper-button swiper-button-next swiper-parallax mdi mdi-chevron-right"></div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</div>
+	</div>
+	
+</header>
